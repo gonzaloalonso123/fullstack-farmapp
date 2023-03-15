@@ -1,0 +1,23 @@
+.layout-container {
+  width: 65%;
+  height: 90vh;
+  margin-top: 5vh;
+  background-color: greenyellow;
+  border-radius: 2em;
+}
+
+.layout-sky {
+  background-color: skyblue;
+  border-radius: 2em;
+  height: 33%;
+  width: 100%;
+  position: relative;
+}
+
+.layout-earth {
+  background-color: greenyellow;
+  height: 67%;
+  width: 100%;
+  border-radius: 2em;
+  position: relative;
+}

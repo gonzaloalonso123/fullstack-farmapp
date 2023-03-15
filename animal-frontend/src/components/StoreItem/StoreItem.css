@@ -1,0 +1,70 @@
+.store-item-container {
+  border-radius: 2em;
+  margin-top: 1em;
+  padding: 1em;
+  width: 100%;
+  box-shadow: 0px 16px 10px rgba(0,0,0,.2);
+  transition: all 1s;
+}
+.store-details-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store-settings-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-settings-container * {
+    margin-top: .5em;
+    height: 2em;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.store-attr-container {
+    display: flex;
+}
+
+.store-item-container label {
+    font-weight: bold;
+}
+
+.store-item-image {
+  height: 100%;
+}
+
+.store-item-buy-button {
+  background-color: lightskyblue;
+  font-size: 2em;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.store-item-buy-button:hover {
+    transform: scale(1.2);
+}
+
+.store-add-to-collection-button{
+  border: none;
+  padding: 2em;
+  font-weight: bold;
+  border-radius: 2em;
+  margin-top: 3em;
+  cursor: pointer;
+  transition: all .5s;
+  background-color: greenyellow;
+  line-height: 0;
+}
+
+.store-add-to-collection-button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,26 @@
+.store-searchbar-input {
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 1em;
+  border: none;
+  margin-right: 1em;
+  outline: none;
+}
+.store-searchbar-button {
+  padding: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 1em;
+}
+
+.store-searchbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 2em;
+  padding: 2em;
+  position: fixed;
+  left: 3em;
+  top: 1em;
+}

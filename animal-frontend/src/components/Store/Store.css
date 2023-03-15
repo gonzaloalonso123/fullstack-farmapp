@@ -1,0 +1,9 @@
+.store-container {
+    height: 100%;
+    padding: 1em;
+    width: 30%;
+    overflow: scroll;
+    border-radius: 4em;
+    margin-top: 15vh;
+    height: 80vh;
+}
